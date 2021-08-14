@@ -16,9 +16,9 @@ driver.get('https://www.instagram.com/accounts/login/')
 
 #регестрация
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 
-"input[name='username']"))).send_keys("zharkova.design")
+"input[name='username']"))).send_keys("your username")
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 
-"input[name='password']"))).send_keys("imdesignerhere123")
+"input[name='password']"))).send_keys("your password")
 link = driver.find_element(By.CSS_SELECTOR, "button[class='sqdOP  L3NKy   y3zKF     ']")
 link.click()
 time.sleep(10)
