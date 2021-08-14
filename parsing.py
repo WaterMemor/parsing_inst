@@ -10,11 +10,11 @@ import locale
 import shutil
 import time
 import os.path
-
+# ! Названия классов могут измениться !
 driver = webdriver.Firefox(executable_path=r'C:\\Program Files\\geckodriver.exe')
 driver.get('https://www.instagram.com/accounts/login/')
 
-#регестрация
+#регистрация
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 
 "input[name='username']"))).send_keys("your username")
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 
