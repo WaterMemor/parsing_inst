@@ -1,3 +1,6 @@
 # parsing_inst
-Okay, today I decided to parse the instagram page. Actually it's not a unique idea, just i did it just for practicing. So this script will put likes to post which will found with #hashtag
- I'm still working about it :)
+If u need like some number of posts with #hashtag 
+Just need to check names of classes. Because it can be changed.
+
+# How to use
+Download this file, change #hashtag "#zharkovadesign" for your own
